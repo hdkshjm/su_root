@@ -16,9 +16,9 @@ gcc su_root.c -o su_root
 ```
 
 
-<3>login to Host OS and mount the Virtual OS
+<3>login to Host OS as root user, and mount the Virtual OS
 ```
-sudo su - 
+su - 
 cd <dir>
 chown root:root su_root
 chmod 4755 su_root
